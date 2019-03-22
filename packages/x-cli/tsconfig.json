@@ -4,7 +4,6 @@
     "rootDir": "src",
     "outDir": "lib"
   },
-  "references": [
-    { "path": "../x-core" }
-  ]
+  "exclude": ["test", "lib"],
+  "references": [{ "path": "../x-core" }]
 }
